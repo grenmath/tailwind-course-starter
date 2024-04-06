@@ -7,5 +7,55 @@
     <script defer src="./assets/fontawesome/js/solid.min.js"></script>
     <script defer src="./assets/fontawesome/js/fontawesome.min.js"></script>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <header class="text-zinc-100">
+        <nav
+          class="sticky top-0 flex bg-gradient-to-r from-rose-300 to-pink-500"
+        >
+          <div class="flex items-center gap-2 p-2">
+            <img src="../src/assets/images/logo-inverted.png" width="50" />
+            <div class="text-2xl font-bold">
+              tw:<span class="text-sky-900">mf</span>
+            </div>
+          </div>
+          <div class="my-auto ml-auto block cursor-pointer pr-4 md:hidden">
+            <div id="mobile-menu-button" class="group">
+              <div class="h-1 w-8 rounded-full bg-zinc-100"></div>
+              <div class="mt-1 h-1 w-8 rounded-full bg-zinc-100"></div>
+              <div class="mt-1 h-1 w-8 rounded-full bg-zinc-100"></div>
+            </div>
+          </div>
+          <div class="hidden flex-1 items-center justify-end md:flex">
+            <div class="menu-item">
+              <span>Home</span>
+            </div>
+            <div class="menu-item">
+              <span>Lineup</span>
+            </div>
+            <div class="menu-item group">
+              <span>Tickets</span>
+              <div
+                class="absolute right-0 top-full hidden whitespace-nowrap rounded-b-md bg-pink-400 group-hover:block"
+              >
+                <div
+                  class="cursor-pointer p-4 font-bold text-pink-200 transition-colors ease-in-out hover:bg-white/10 hover:text-zinc-200"
+                >
+                  <span>111111</span>
+                </div>
+                <div
+                  class="cursor-pointer p-4 font-bold text-pink-200 transition-colors ease-in-out hover:bg-white/10 hover:text-zinc-200"
+                >
+                  <span>2222</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <span>Support</span>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </main>
+  </body>
 </html>
